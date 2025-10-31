@@ -23,6 +23,10 @@ import postImg4 from "../assets/images/post-img-4.png";
 import postImg5 from "../assets/images/post-img-5.png";
 import postImg6 from "../assets/images/post-img-6.png";
 
+import LocalImg1 from "../assets/icons/local-img-1.svg";
+import LocalImg2 from "../assets/icons/local-img-2.svg";
+import LocalImg3 from "../assets/icons/local-img-3.svg";
+
 export const processSteps = [
   {
     id: 1,
@@ -274,5 +278,30 @@ export const clientSatisfactionSections = [
     author: "Andrew Jonson",
     date: "Jan 19, 2021",
     img: postImg6,
+  },
+];
+
+export const local = [
+  {
+    id: 1,
+    title: "On Time Delivery",
+    description:
+      "Through True Rich Attended does no end it his mother since real had half every him.",
+    icon: LocalImg1,
+  },
+  {
+    id: 2,
+    title: "Best Quality",
+    description:
+      "Through True Rich Attended does no end it his mother since real had half every him.",
+    icon: LocalImg2,
+  },
+  {
+    id: 3,
+    title: "Support Assist",
+    description:
+      "Through True Rich Attended does no end it his mother since real had half every him.",
+    icon: LocalImg3,
+    bottom: true,
   },
 ];
