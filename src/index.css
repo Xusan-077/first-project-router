@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1320px;
+    padding: 0 20px;
+}
+
+
+.footer-icon::before {
+    content: "";
+    position: absolute;
+    background-image: url("./assets/icons/icon.svg");
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+}
+
+.footer-bottom::before {
+    content: "";
+    position: absolute;
+    top: calc(50%);
+    transform: translateY(-50%);
+    left: -50px;
+    width: 37px;
+    height: 14px;
+    background-color: #666DFF;
+}
+
+.footer-bottom::after {
+    content: "";
+    position: absolute;
+    top: calc(50%);
+    transform: translateY(-50%);
+    left: -60px;
+    width: 13px;
+    height: 14px;
+    background-color: #FFD3AF;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    background-image: url("./assets/icons/icon.svg");
+    width: 28px;
+    height: 28px;
+    top: 0;
+    left: 0;
+}
+
+.hero-top::before {
+    content: "";
+    position: absolute;
+    background-image: url("./assets/icons/icon.svg");
+    width: 70px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 100px;
+    right: 0;
+    transform: rotate(90deg);
+}
+
+.subscribe__inner::before {
+    content: "";
+    position: absolute;
+    background-image: url("./assets/icons/icon.svg");
+    width: 90px;
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+}
