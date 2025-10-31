@@ -8,9 +8,7 @@ export default function PostsItem({ title, img, text, author, date }) {
         <h2 className="text-[24px] font-semibold max-w-[264px] mb-[34px]">
           {title}
         </h2>
-        <p className="text-[16px] text-[#232536] max-w-[341px] mb-[24px]">
-          {text}
-        </p>
+        <p className="text-[16px] text-[#232536] max-w-[341px] mb-6">{text}</p>
         <div className="flex gap-3">
           <img src={blogImg1} alt="" className="" />
           <div className="flex flex-col">
