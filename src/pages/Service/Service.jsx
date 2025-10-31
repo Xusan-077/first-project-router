@@ -1,4 +1,4 @@
-import Information from "../../components/information/information";
+import Information from "../../components/Information/Information";
 import ServiceHero from "../../components/ServiceHero/ServiceHero";
 import Subscribe from "../../components/Subscribe/Subscribe";
 import Support from "../../components/Support/Support";
