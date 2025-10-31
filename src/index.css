@@ -78,3 +78,7 @@ body {
     top: 0;
     left: 0;
 }
+
+.hide {
+    right: -100px;
+}
