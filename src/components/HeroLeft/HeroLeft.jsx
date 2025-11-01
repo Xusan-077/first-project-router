@@ -23,13 +23,15 @@ export default function HeroLeft({
       >
         {title}
       </h1>
-      <p
-        className={`${width ? "max-w-[730px]" : "max-w-[528px]"} ${
-          color ? "text-[#232536]" : "text-[#FFF9]"
-        } text-[16px] max-w-[528px] mb-[30px]`}
-      >
-        {text}
-      </p>
+      {text && (
+        <p
+          className={`${width ? "max-w-[730px]" : "max-w-[528px]"} ${
+            color ? "text-[#232536]" : "text-[#FFF9]"
+          } text-[16px] max-w-[528px] mb-[30px]`}
+        >
+          {text}
+        </p>
+      )}
 
       {isBtn && (
         <div className="relative">

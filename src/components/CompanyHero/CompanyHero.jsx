@@ -2,15 +2,12 @@ import CompanyHeroItem from "../CompanyHeroItem/CompanyHeroItem";
 
 import HeroLeft from "../HeroLeft/HeroLeft";
 
-import CompanyHeroImg1 from "../../assets/images/Company-img-1.png";
-import CompanyHeroImg2 from "../../assets/images/Company-img-2.png";
-import CompanyHeroImg3 from "../../assets/images/Company-img-3.png";
-
 import Herologo1 from "../../assets/icons/hero-logo-1.svg";
 import Herologo2 from "../../assets/icons/hero-logo-2.svg";
 import Herologo3 from "../../assets/icons/hero-logo-3.svg";
 import Herologo4 from "../../assets/icons/hero-logo-4.svg";
 import Herologo5 from "../../assets/icons/hero-logo-5.svg";
+import CompanyHeroBottom from "../CompanyHeroBottom/CompanyHeroBottom";
 
 export default function CompanyHero() {
   return (
@@ -28,24 +25,7 @@ export default function CompanyHero() {
             <div className="hero-top"></div>
           </div>
 
-          <div className="">
-            <ul className="relative flex items-center justify-between mb-[100px]">
-              <div className="absolute flex top-[-15px] right-0">
-                <div className="w-[100px] h-[15px] bg-[#FFA155FF]"></div>
-                <div className="w-[150px] h-[15px] bg-[#FFD3AFFF]"></div>
-                <div className="w-[100px] h-[15px] bg-[#444CFCFF]"></div>
-              </div>
-              <li className="">
-                <img src={CompanyHeroImg1} alt="" className="" />
-              </li>
-              <li className="">
-                <img src={CompanyHeroImg2} alt="" className="" />
-              </li>
-              <li className="">
-                <img src={CompanyHeroImg3} alt="" className="" />
-              </li>
-            </ul>
-          </div>
+          <CompanyHeroBottom />
 
           <div className="mb-[100px] flex items-center justify-between">
             <HeroLeft

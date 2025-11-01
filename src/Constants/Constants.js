@@ -27,6 +27,10 @@ import LocalImg1 from "../assets/icons/local-img-1.svg";
 import LocalImg2 from "../assets/icons/local-img-2.svg";
 import LocalImg3 from "../assets/icons/local-img-3.svg";
 
+import OurServicesImg1 from "../assets/icons/OurServices-img-1.svg";
+import OurServicesImg2 from "../assets/icons/OurServices-img-2.svg";
+import OurServicesImg3 from "../assets/icons/OurServices-img-3.svg";
+
 export const processSteps = [
   {
     id: 1,
@@ -303,5 +307,29 @@ export const local = [
       "Through True Rich Attended does no end it his mother since real had half every him.",
     icon: LocalImg3,
     bottom: true,
+  },
+];
+
+export const OurServicesArr = [
+  {
+    id: 1,
+    title: "Technical support",
+    description:
+      "We aim to attain the greatest satisfaction for our clients and be one of the prominent names when it comes to world-class service",
+    icon: OurServicesImg1,
+  },
+  {
+    id: 2,
+    title: "Testing Management",
+    description:
+      "We aim to attain the greatest satisfaction for our clients and be one of the prominent names when it comes to world-class service",
+    icon: OurServicesImg2,
+  },
+  {
+    id: 3,
+    title: "Development",
+    description:
+      "We aim to attain the greatest satisfaction for our clients and be one of the prominent names when it comes to world-class service",
+    icon: OurServicesImg3,
   },
 ];
