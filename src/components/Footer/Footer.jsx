@@ -77,7 +77,7 @@ export default function Footer() {
       </div>
 
       <div className="bg-[#FFE6D2] p-[30px_20px]">
-        <div className="w-7xl flex justify-between my-0 mx-auto">
+        <div className="w-full min-w-[1240px] flex justify-between my-0 mx-auto">
           <Link to="/">
             <img src={Logo} alt="" className="" />
           </Link>
